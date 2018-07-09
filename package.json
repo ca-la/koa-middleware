@@ -20,5 +20,16 @@
   "bugs": {
     "url": "https://github.com/ca-la/koa-middleware/issues"
   },
-  "homepage": "https://github.com/ca-la/koa-middleware#readme"
+  "homepage": "https://github.com/ca-la/koa-middleware#readme",
+  "peerDependencies": {
+    "koa": "^2.0.0"
+  },
+  "dependencies": {
+    "@types/co-body": "0.0.3",
+    "co-body": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^10.5.2",
+    "typescript": "^2.9.2"
+  }
 }
