@@ -1,0 +1,24 @@
+{
+  "name": "@cala/koa-middleware",
+  "version": "1.0.0",
+  "description": "CALA Common Koa Middleware",
+  "main": "index.ts",
+  "scripts": {
+    "test": "tslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ca-la/koa-middleware.git"
+  },
+  "keywords": [
+    "koa",
+    "middleware",
+    "cala"
+  ],
+  "author": "CALA <devops@ca.la>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ca-la/koa-middleware/issues"
+  },
+  "homepage": "https://github.com/ca-la/koa-middleware#readme"
+}
