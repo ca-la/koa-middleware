@@ -1,6 +1,6 @@
 {
   "name": "@cala/koa-middleware",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "CALA Common Koa Middleware",
   "main": "index.ts",
   "files": [
