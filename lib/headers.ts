@@ -2,8 +2,8 @@ import { Middleware } from '../index';
 import { Context } from 'koa';
 
 interface HeadersOptions {
-  poweredBy: string;
-  cors: {
+  poweredBy?: string;
+  cors?: {
     origin?: string;
     methods?: string[];
     credentials?: boolean;
