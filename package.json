@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "CALA Common Koa Middleware",
   "main": "index.ts",
+  "files": [
+    "lib/"
+  ],
   "scripts": {
-    "test": "tslint"
+    "test": "tslint --project . && ts-node node_modules/.bin/tape test/*.ts"
   },
   "repository": {
     "type": "git",
@@ -29,7 +32,18 @@
     "co-body": "^6.0.0"
   },
   "devDependencies": {
+    "@types/koa": "^2.0.46",
     "@types/node": "^10.5.2",
+    "@types/sinon": "^5.0.1",
+    "@types/supertest": "^2.0.4",
+    "@types/tape": "^4.2.32",
+    "koa": "^2.5.1",
+    "sinon": "^6.1.3",
+    "supertest": "^3.1.0",
+    "tape": "^4.9.1",
+    "ts-node": "^7.0.0",
+    "tslint": "^5.10.0",
+    "tslint-config-airbnb": "^5.9.2",
     "typescript": "^2.9.2"
   }
 }
