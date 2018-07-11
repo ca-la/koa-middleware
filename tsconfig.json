@@ -1,16 +1,19 @@
 {
   "compilerOptions": {
     "lib": ["es2015"],
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "declaration": true,
     "noImplicitAny": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noImplicitReturns": true,
     "strict": true,
     "module": "commonjs",
-    "target": "es6"
+    "target": "es2015",
+    "types": []
   },
-  "include": [
-    "./index.ts",
-    "./lib/**/*.ts"
+  "files": [
+    "./index.ts"
   ]
 }

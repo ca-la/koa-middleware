@@ -1,0 +1,6 @@
+.circleci/
+lib/
+test/
+index.ts
+tsconfig.json
+tslint.json

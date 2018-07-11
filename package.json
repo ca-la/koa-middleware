@@ -2,12 +2,12 @@
   "name": "@cala/koa-middleware",
   "version": "1.0.2",
   "description": "CALA Common Koa Middleware",
-  "main": "index.ts",
-  "files": [
-    "lib/"
-  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "tslint --project . && ts-node node_modules/.bin/tape test/*.ts"
+    "test": "tslint --project . && ts-node node_modules/.bin/tape test/*.ts",
+    "build": "tsc",
+    "prepublish": "npm run test && npm run build"
   },
   "repository": {
     "type": "git",
